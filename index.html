@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maiderson J. Oliveira | Desenvolvedor Front-End</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --primary: #0f172a;
+            --accent: #2563eb;
+            --bg-light: #f8fafc;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .nav-blur {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        .skill-card {
+            background: white;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid #e2e8f0;
+        }
+
+        .skill-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.1);
+        }
+
+        .dev-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: var(--accent);
+            margin-top: 8px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-[#f8fafc] text-[#1e293b]">
+
+    <!-- Navegação -->
+    <nav class="fixed w-full z-50 nav-blur top-0">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tight text-[#0f172a]">MAIDERSON<span class="text-blue-600">.</span></span>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-wider text-slate-600">
+                <a href="#inicio" class="hover:text-blue-600 transition">Início</a>
+                <a href="#sobre" class="hover:text-blue-600 transition">Sobre</a>
+                <a href="#habilidades" class="hover:text-blue-600 transition">Habilidades</a>
+                <a href="#contato" class="hover:text-blue-600 transition">Contato</a>
+            </div>
+            <a href="mailto:maidersoncriativodigital@gmail.com" class="hidden md:block bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-bold hover:bg-blue-700 transition">
+                Fale Comigo
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="pt-40 pb-24 px-6 bg-gradient-to-b from-white to-slate-50">
+        <div class="max-w-6xl mx-auto flex flex-col items-center text-center">
+            <div class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
+                Front-End Developer Junior
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-[#0f172a] mb-6 tracking-tight leading-tight">
+                Maiderson Junio de Souza <br><span class="text-slate-400 font-light italic">Oliveira</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-500 mb-10 max-w-2xl leading-relaxed">
+                Transformando ideias em interfaces modernas e funcionais. Atualmente em formação pelo SENAI e focado em tecnologias Front-End.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#contato" class="bg-[#0f172a] text-white px-10 py-4 rounded-xl font-bold hover:bg-blue-600 transition shadow-xl shadow-slate-200 text-center">
+                    Iniciar Conversa
+                </a>
+                <a href="https://github.com/maidersoncriativodigital-gif" target="_blank" class="flex items-center justify-center gap-2 bg-white text-slate-700 border border-slate-200 px-10 py-4 rounded-xl font-bold hover:bg-slate-50 transition">
+                    <i class="devicon-github-original text-xl"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-24 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid md:grid-cols-5 gap-12 items-center">
+                <div class="md:col-span-2">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-blue-600 rounded-2xl rotate-3"></div>
+                        <img src="midia/Maiderson.jpg" alt="Avatar" class="relative z-10 w-full rounded-2xl bg-white border-4 border-white shadow-lg">
+                    </div>
+                </div>
+                <div class="md:col-span-3">
+                    <h3 class="text-3xl font-bold mb-6 section-title text-[#0f172a]">Trajetória Profissional</h3>
+                    <div class="space-y-4 text-slate-600 leading-relaxed text-justify">
+                        <p>
+                            Estou em formação pelo <strong>SENAI</strong>, onde desenvolvo a base técnica para criar soluções web que unem estética e performance. Meu foco atual está no ecossistema JavaScript e em criar experiências de usuário fluidas.
+                        </p>
+                        <p>
+                            Acredito que o bom desenvolvimento front-end vai além de apenas "fazer funcionar"; trata-se de escrever <strong>código limpo</strong>, acessível e otimizado para o usuário final.
+                        </p>
+                        <p>
+                            Busco uma oportunidade para integrar um time de tecnologia onde eu possa contribuir com meu aprendizado contínuo e minha vontade de construir produtos excepcionais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold section-title inline-block text-[#0f172a]">Minha Stack</h3>
+                <p class="text-slate-400 mt-4 font-medium uppercase tracking-widest text-xs">Tecnologias e Ferramentas</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center">
+                <div class="skill-card p-10 rounded-3xl">
+                    <i class="devicon-html5-plain-wordmark colored dev-icon"></i>
+                    <h4 class="font-bold text-slate-800">HTML5</h4>
+                    <p class="text-[10px] font-bold text-slate-400 tracking-tighter uppercase">Semântica & SEO</p>
+                </div>
+                <div class="skill-card p-10 rounded-3xl">
+                    <i class="devicon-css3-plain-wordmark colored dev-icon"></i>
+                    <h4 class="font-bold text-slate-800">CSS3</h4>
+                    <p class="text-[10px] font-bold text-slate-400 tracking-tighter uppercase">Layouts Modernos</p>
+                </div>
+                <div class="skill-card p-10 rounded-3xl">
+                    <i class="devicon-javascript-plain colored dev-icon"></i>
+                    <h4 class="font-bold text-slate-800">JavaScript</h4>
+                    <p class="text-[10px] font-bold text-slate-400 tracking-tighter uppercase">Interatividade</p>
+                </div>
+                <div class="skill-card p-10 rounded-3xl">
+                    <i class="devicon-tailwindcss-original colored dev-icon"></i>
+                    <h4 class="font-bold text-slate-800">Tailwind</h4>
+                    <p class="text-[10px] font-bold text-slate-400 tracking-tighter uppercase">CSS Framework</p>
+                </div>
+                <div class="skill-card p-10 rounded-3xl">
+                    <i class="devicon-git-plain colored dev-icon"></i>
+                    <h4 class="font-bold text-slate-800">Git</h4>
+                    <p class="text-[10px] font-bold text-slate-400 tracking-tighter uppercase">Versionamento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-3xl mx-auto bg-white p-12 rounded-[2.5rem] shadow-sm border border-slate-100 text-center">
+            <h3 class="text-3xl font-bold mb-4 text-[#0f172a]">Pronto para trabalhar juntos?</h3>
+            <p class="text-slate-500 mb-10 text-lg">
+                Seja para uma vaga em aberto ou um projeto freelancer, estou pronto para conversar.
+            </p>
+            
+            <div class="flex flex-col gap-4">
+                <a href="mailto:maidersoncriativodigital@gmail.com" class="bg-[#2563eb] text-white p-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 hover:bg-[#1d4ed8] transition shadow-lg shadow-blue-100">
+                    <i data-lucide="mail"></i> Envie-me um e-mail
+                </a>
+                <div class="flex gap-4">
+                    <a href="https://www.linkedin.com/in/maiderson-junio-257018354" target="_blank" class="flex-1 border border-slate-200 p-4 rounded-2xl font-bold text-slate-700 flex items-center justify-center gap-2 hover:bg-slate-50 transition text-sm">
+                        <i class="devicon-linkedin-plain colored text-xl"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/maidersoncriativodigital-gif" target="_blank" class="flex-1 border border-slate-200 p-4 rounded-2xl font-bold text-slate-700 flex items-center justify-center gap-2 hover:bg-slate-50 transition text-sm">
+                        <i class="devicon-github-original text-xl"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="py-12 px-6 text-center text-slate-400 text-sm">
+        <p>© 2025 Maiderson Junio de Souza Oliveira. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
