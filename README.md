@@ -1,6 +1,6 @@
 # Portf-lio_Web-
 
-🚀 Portfólio Profissional - Maiderson Junio
+🚀 Portfólio Profissional - Maiderson Junio   
 ​Este é o repositório do meu portfólio pessoal. O objetivo deste projeto é apresentar as minhas competências como Desenvolvedor Front-End Júnior, a minha trajetória no SENAI e os meus contactos profissionais.
 
 ​
