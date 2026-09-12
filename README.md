@@ -12,12 +12,18 @@
 ​
 
 📱 Funcionalidades
+
 ​Design Responsivo: Adaptado para computadores, tablets e smartphones.
+
 ​Smooth Scroll: Navegação fluida entre as secções da página.
+
 ​Efeito de Glassmorphism: Navbar com efeito de desfoque moderno.
+
 ​Cartões Interativos: Feedback visual ao passar o rato (hover) nas habilidades.
 ​
 
 🚀 Como visualizar o projeto
+
 ​Não é necessário instalar dependências. Basta abrir o ficheiro portfolio.html em qualquer navegador moderno ou aceder através do link do GitHub Pages (caso já o tenhas ativado).
-​Desenvolvido por Maiderson Junio de Souza Oliveira.
+​
+Desenvolvido por Maiderson Junio de Souza Oliveira.
