@@ -6,8 +6,11 @@
 ​
 🛠️ Tecnologias Utilizadas
 ​HTML5: Estrutura semântica.
+
 ​Tailwind CSS: Estilização moderna e responsiva via CDN.
+
 ​Lucide React & DevIcon: Ícones profissionais para interface e stack tecnológica.
+
 ​Google Fonts: Tipografia Plus Jakarta Sans para melhor legibilidade.
 ​
 
